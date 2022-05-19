@@ -17,7 +17,7 @@ body {
    width: fit-content;
    padding: 30px;
    padding-bottom: 50px;
-   min-height: 200px;
+   min-height: 150px;
    background-color: $dg-blue;
    text-align: center;
 
@@ -35,6 +35,10 @@ body {
       padding: 0 5px;
       word-wrap: break-word;
       font-weight: 800;
+   }
+
+   .mobile {
+      display: none;
    }
 
    button {
