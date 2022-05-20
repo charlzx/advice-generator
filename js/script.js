@@ -29,7 +29,7 @@ button.addEventListener('click', () => {
    generateAdvice()
    .then(data => {
       adviceId.textContent = `ADVICE #${data.slip.id}`;
-      adviceText.textContent = `${data.slip.advice}`;
+      adviceText.textContent = `“${data.slip.advice}”`;
    })
    .catch(error => {
       console.log(error);
